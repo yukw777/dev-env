@@ -1,0 +1,34 @@
+[alias]
+    hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+    histr = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short --all
+    ph = push origin HEAD
+    pl = pull origin HEAD
+    plr = pull --rebase origin HEAD
+    poke = !git ls-remote origin | grep -w refs/heads/poke && git push origin :poke || git push origin master:poke
+[core]
+    editor = vim
+    pager = less -r
+[color]
+    diff = auto
+    status = auto
+    interactive = auto
+    ui = auto
+    pager = true
+[color "branch"]
+       current = green reverse
+       local = blue
+       remote = yellow
+[color "diff"]
+       meta = yellow bold
+       frag = magenta bold
+       old = red bold
+       new = blue bold
+[color "status"]
+       added = yellow reverse
+       changed = blue
+       untracked = cyan
+[merge]
+    conflictstyle = diff3
+[user]
+	name = $USER_NAME
+	email = $USER_EMAIL
