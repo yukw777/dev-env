@@ -40,3 +40,7 @@ autocmd BufWritePre <buffer> :%s/\s\+$//e
 
 " Automatically run flake8 python linter on save
 autocmd BufWritePost *.py call Flake8()
+
+" Highlight column 80
+highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+match OverLength /\%81v.\+/
