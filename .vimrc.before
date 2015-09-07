@@ -37,3 +37,6 @@ filetype plugin indent on    " required
 
 " Automatically trim trailing whitespaces on save
 autocmd BufWritePre <buffer> :%s/\s\+$//e
+
+" Automatically run flake8 python linter on save
+autocmd BufWritePost *.py call Flake8()
