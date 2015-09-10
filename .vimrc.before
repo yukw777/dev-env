@@ -18,7 +18,7 @@ Plugin 'VundleVim/Vundle.vim'
 " Keep Plugin commands between vundle#begin/end.
 Plugin 'raimondi/delimitmate'
 Plugin 'Valloric/YouCompleteMe'
-Plugin 'nvie/vim-flake8'
+Plugin 'scrooloose/syntastic'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -38,9 +38,20 @@ filetype plugin indent on    " required
 " Automatically trim trailing whitespaces on save
 autocmd BufWritePre <buffer> :%s/\s\+$//e
 
-" Automatically run flake8 python linter on save
-autocmd BufWritePost *.py call Flake8()
-
 " Highlight column 80
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%81v.\+/
+
+" Syntastic settings
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+" Install flake8 and jshint
+" apt-get install python-flake8
+" npm install jshint -g
