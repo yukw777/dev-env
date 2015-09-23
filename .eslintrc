@@ -1,21 +1,19 @@
 {
+    "extends": "eslint:recommended",
     "parser": "babel-eslint",
     "env": {
         "browser": true,
         "node": true
     },
-    "settings": {
-        "ecmascript": 6,
+    "ecmaFeatures": {
+        "forOf": true,
         "jsx": true
     },
     "plugins": [
         "react"
     ],
     "rules": {
-        "strict": 0,
-        "quotes": 0,
-        "no-unused-vars": 0,
-        "camelcase": 0,
-        "no-underscore-dangle": 0
+        "react/jsx-no-undef": 1,
+        "react/react-in-jsx-scope": 1
     }
 }
