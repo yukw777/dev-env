@@ -13,6 +13,7 @@
         "react"
     ],
     "rules": {
+        "semi": [2, "always"],
         "react/jsx-no-undef": 1,
         "react/react-in-jsx-scope": 1
     }
