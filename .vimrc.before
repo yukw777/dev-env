@@ -21,6 +21,7 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'scrooloose/syntastic'
 Plugin 'mxw/vim-jsx'
 Plugin 'scrooloose/nerdcommenter'
+Plugin 'kien/rainbow_parentheses.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -60,6 +61,12 @@ let g:jsx_ext_required = 0
 
 " Explore mode
 let g:netrw_liststyle=3
+
+" Turn on rainbow parentheses
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
 
 " Install flake8 and eslint
 " apt-get install python-flake8
