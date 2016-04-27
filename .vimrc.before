@@ -22,6 +22,7 @@ Plugin 'scrooloose/syntastic'
 Plugin 'mxw/vim-jsx'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'kien/rainbow_parentheses.vim'
+Plugin 'ensime/ensime-vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -67,6 +68,12 @@ au VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
+
+" Typechecking after writing
+autocmd BufWritePost *.scala :EnTypeCheck
+
+" Easy Type Inspection
+nnoremap <localleader>t :EnTypeCheck<CR>
 
 " Install flake8 and eslint
 " apt-get install python-flake8
