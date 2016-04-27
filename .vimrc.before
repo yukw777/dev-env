@@ -22,7 +22,6 @@ Plugin 'scrooloose/syntastic'
 Plugin 'mxw/vim-jsx'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'kien/rainbow_parentheses.vim'
-Plugin 'derekwyatt/vim-scala'
 Plugin 'ensime/ensime-vim'
 
 " All of your Plugins must be added before the following line
