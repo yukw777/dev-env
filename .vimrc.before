@@ -72,6 +72,8 @@ au Syntax * RainbowParenthesesLoadBraces
 " Typechecking after writing
 autocmd BufWritePost *.scala :EnTypeCheck
 
+let g:ycm_path_to_python_interpreter = '/usr/bin/python'
+
 " Easy Type Inspection
 nnoremap <localleader>t :EnTypeCheck<CR>
 
