@@ -1,7 +1,3 @@
-" First install vim Janus
-" Then install Vundle
-" Then put this file
-
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
@@ -14,15 +10,32 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
-" The following are examples of different formats supported.
-" Keep Plugin commands between vundle#begin/end.
+" Automatic closing of quotes, parentheses, brackets...
 Plugin 'raimondi/delimitmate'
+
+" Autocomplete
 Plugin 'Valloric/YouCompleteMe'
+
+" Syntax chcker
 Plugin 'scrooloose/syntastic'
+
+" JSX stuff
 Plugin 'mxw/vim-jsx'
+
+" Easy commenting
 Plugin 'scrooloose/nerdcommenter'
-Plugin 'kien/rainbow_parentheses.vim'
-Plugin 'ensime/ensime-vim'
+
+" Easy file navigation
+Plugin 'scrooloose/nerdtree'
+
+" File navigation with git stuff
+Plugin 'Xuyuanp/nerdtree-git-plugin'
+
+" Colorful parentheses
+Plugin 'junegunn/rainbow_parentheses.vim'
+
+" Scala syntax highlighting
+Plugin 'derekwyatt/vim-scala'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -63,19 +76,24 @@ let g:jsx_ext_required = 0
 " Explore mode
 let g:netrw_liststyle=3
 
-" Turn on rainbow parentheses
-au VimEnter * RainbowParenthesesToggle
-au Syntax * RainbowParenthesesLoadRound
-au Syntax * RainbowParenthesesLoadSquare
-au Syntax * RainbowParenthesesLoadBraces
+" Start NERDTree when vim starts up if no files were specified
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
-" Typechecking after writing
-autocmd BufWritePost *.scala :EnTypeCheck
+" Map NERDTree to Ctrl+o
+map <C-o> :NERDTreeToggle<CR>
 
-let g:ycm_path_to_python_interpreter = '/usr/bin/python'
+" NERDCommenter Post Installation setting
+filetype plugin on
 
-" Easy Type Inspection
-nnoremap <localleader>t :EnTypeCheck<CR>
+" Map Leader key to ,
+let mapleader=","
+
+" Activate rainbow parentheses based on filetype
+augroup rainbow
+  autocmd!
+  autocmd FileType scala,lisp,clojure,scheme RainbowParentheses
+augroup END
 
 " Install flake8 and eslint
 " apt-get install python-flake8
