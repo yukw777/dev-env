@@ -40,6 +40,7 @@ Plugin 'derekwyatt/vim-scala'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
+syntax on
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
 "
@@ -94,6 +95,9 @@ augroup rainbow
   autocmd!
   autocmd FileType scala,lisp,clojure,scheme RainbowParentheses
 augroup END
+
+" Use the system python for ycm
+let g:ycm_path_to_python_interpreter = '/usr/bin/python'
 
 " Install flake8 and eslint
 " apt-get install python-flake8
