@@ -45,6 +45,7 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 syntax on
 set number
+set hlsearch
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
 "
