@@ -40,6 +40,9 @@ Plugin 'derekwyatt/vim-scala'
 " Git diff in the 'gutter'
 Plugin 'airblade/vim-gitgutter'
 
+" Status line
+Plugin 'vim-airline/vim-airline'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -103,6 +106,9 @@ augroup END
 
 " Use the system python for ycm
 let g:ycm_path_to_python_interpreter = '/usr/bin/python'
+
+" vim-airline doesn't appear until I create a new split
+set laststatus=2
 
 " Install flake8 and eslint
 " apt-get install python-flake8
