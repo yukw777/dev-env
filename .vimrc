@@ -37,10 +37,14 @@ Plugin 'junegunn/rainbow_parentheses.vim'
 " Scala syntax highlighting
 Plugin 'derekwyatt/vim-scala'
 
+" Git diff in the 'gutter'
+Plugin 'airblade/vim-gitgutter'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
 syntax on
+set number
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
 "
