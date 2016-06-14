@@ -110,6 +110,9 @@ let g:ycm_path_to_python_interpreter = '/usr/bin/python'
 " vim-airline doesn't appear until I create a new split
 set laststatus=2
 
+" HTML indentation is 2 spaces
+autocmd FileType html setlocal shiftwidth=2 tabstop=2
+
 " Install flake8 and eslint
 " apt-get install python-flake8
 " npm install -g eslint
