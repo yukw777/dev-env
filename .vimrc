@@ -113,6 +113,9 @@ set laststatus=2
 " HTML indentation is 2 spaces
 autocmd FileType html setlocal shiftwidth=2 tabstop=2
 
+" sql indentation is 2 spaces
+autocmd FileType sql setlocal shiftwidth=2 tabstop=2
+
 " Install flake8 and eslint
 " apt-get install python-flake8
 " npm install -g eslint
