@@ -49,6 +49,12 @@ filetype plugin indent on    " required
 syntax on
 set number
 set hlsearch
+
+" Indentation soft tab 2
+set expandtab
+set shiftwidth=2
+set softtabstop=2
+
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
 "
@@ -109,12 +115,6 @@ let g:ycm_path_to_python_interpreter = '/usr/bin/python'
 
 " vim-airline doesn't appear until I create a new split
 set laststatus=2
-
-" HTML indentation is 2 spaces
-autocmd FileType html setlocal shiftwidth=2 tabstop=2
-
-" sql indentation is 2 spaces
-autocmd FileType sql setlocal shiftwidth=2 tabstop=2
 
 " Install flake8 and eslint
 " apt-get install python-flake8
