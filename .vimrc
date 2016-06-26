@@ -116,6 +116,11 @@ let g:ycm_path_to_python_interpreter = '/usr/bin/python'
 " vim-airline doesn't appear until I create a new split
 set laststatus=2
 
+" Enable 256 colors for Ubuntu
+if $COLORTERM == 'gnome-terminal'
+  set t_Co=256
+endif
+
 " Install flake8 and eslint
 " apt-get install python-flake8
 " npm install -g eslint
