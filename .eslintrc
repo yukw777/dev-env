@@ -6,7 +6,14 @@
     "jQuery": false,
     "$": false,
     "_": false,
-    "angular": false
+    "angular": false,
+    "describe": false,
+    "beforeEach": false,
+    "module": false,
+    "inject": false,
+    "inspect": false,
+    "it": false,
+    "expect": false
   },
   "rules": {
     "strict": [2, "global"],

@@ -19,6 +19,9 @@ Plugin 'Valloric/YouCompleteMe'
 " Syntax chcker
 Plugin 'scrooloose/syntastic'
 
+" Javascript
+Plugin 'pangloss/vim-javascript'
+
 " JSX stuff
 Plugin 'mxw/vim-jsx'
 
@@ -83,7 +86,7 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
-let g:syntastic_javascript_checkers = ['jshint', 'eslint']
+let g:syntastic_javascript_checkers = ['eslint']
 
 " Allow jsx syntax in js files
 let g:jsx_ext_required = 0
@@ -126,4 +129,3 @@ endif
 " npm install -g eslint
 " npm install -g babel-eslint
 " npm install -g eslint-plugin-react
-" npm install -g jshint
