@@ -73,10 +73,6 @@ set softtabstop=2
 " Automatically trim trailing whitespaces on save
 autocmd BufWritePre * :%s/\s\+$//e
 
-" Highlight column 80
-highlight OverLength ctermbg=red ctermfg=white guibg=#592929
-match OverLength /\%81v.\+/
-
 " Syntastic settings
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
