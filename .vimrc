@@ -55,8 +55,8 @@ set hlsearch
 
 " Indentation soft tab 2
 set expandtab
-set shiftwidth=2
-set softtabstop=2
+set shiftwidth=4
+set softtabstop=4
 
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
