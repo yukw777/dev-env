@@ -46,6 +46,9 @@ Plugin 'airblade/vim-gitgutter'
 " Status line
 Plugin 'vim-airline/vim-airline'
 
+" PHP Debugger
+Plugin 'joonty/vdebug'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -82,7 +85,6 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
-let g:syntastic_javascript_checkers = ['jshint']
 let g:syntastic_php_checkers = ['php', 'phpmd']
 
 " Allow jsx syntax in js files
@@ -120,6 +122,14 @@ set laststatus=2
 if $COLORTERM == 'gnome-terminal'
   set t_Co=256
 endif
+
+" Vdebug settings
+let g:vdebug_options = {
+\   "break_on_open" : 0,
+\   "path_maps" : {
+\       "/var/etsy/current" : "/home/kyu/development/Etsyweb",
+\   },
+\}
 
 " Install flake8 and eslint
 " apt-get install python-flake8
