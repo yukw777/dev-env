@@ -5,6 +5,7 @@
     pl = pull origin HEAD
     plr = pull --rebase origin HEAD
     poke = !git ls-remote origin | grep -w refs/heads/poke && git push origin :poke || git push origin master:poke
+    msnc = merge --squash --no-commit
 [core]
     editor = vim
     pager = less -r
@@ -30,5 +31,5 @@
 [merge]
     conflictstyle = diff3
 [user]
-	name = $USER_NAME
-	email = $USER_EMAIL
+    name = $USER_NAME
+    email = $USER_EMAIL
