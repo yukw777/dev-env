@@ -5,7 +5,7 @@
     pl = pull origin HEAD
     plr = pull --rebase origin HEAD
     poke = !git ls-remote origin | grep -w refs/heads/poke && git push origin :poke || git push origin master:poke
-    msnc = merge --squash --no-commit
+    ms = merge --squash
 [core]
     editor = vim
     pager = less -r
