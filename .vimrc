@@ -49,6 +49,13 @@ Plugin 'vim-airline/vim-airline'
 " PHP Debugger
 Plugin 'joonty/vdebug'
 
+" Fuzzy matching
+Plugin 'junegunn/fzf'
+Plugin 'junegunn/fzf.vim'
+
+" Git wrapper
+Plugin 'tpope/vim-fugitive'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -93,12 +100,17 @@ let g:jsx_ext_required = 0
 " Explore mode
 let g:netrw_liststyle=3
 
-" Start NERDTree when vim starts up if no files were specified
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
-
 " Map NERDTree to Ctrl+o
 map <C-o> :NERDTreeToggle<CR>
+
+" Map file fuzzy matching to Ctrl+i
+map <C-i> :Files<CR>
+
+" Map git commit fuzzy matching to Ctrl+p
+map <C-p> :Commits<CR>
+
+" fzf complete line
+imap <c-l> <plug>(fzf-complete-line)
 
 " NERDCommenter Post Installation setting
 filetype plugin on
