@@ -100,11 +100,11 @@ let g:jsx_ext_required = 0
 " Explore mode
 let g:netrw_liststyle=3
 
-" Map NERDTree to Ctrl+o
-map <C-o> :NERDTreeToggle<CR>
+" Map NERDTree to Ctrl+i
+map <C-i> :NERDTreeToggle<CR>
 
-" Map file fuzzy matching to Ctrl+i
-map <C-i> :Files<CR>
+" Map file fuzzy matching to Ctrl+o
+map <C-o> :Files<CR>
 
 " Map git commit fuzzy matching to Ctrl+p
 map <C-p> :Commits<CR>
