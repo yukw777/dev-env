@@ -125,7 +125,8 @@ augroup rainbow
 augroup END
 
 " Use the system python for ycm
-let g:ycm_path_to_python_interpreter = '/usr/local/bin/python'
+" Only necessary for Ubuntu
+"let g:ycm_path_to_python_interpreter = '/usr/local/bin/python'
 
 " vim-airline doesn't appear until I create a new split
 set laststatus=2
