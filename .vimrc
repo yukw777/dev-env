@@ -144,6 +144,9 @@ let g:vdebug_options = {
 \   },
 \}
 
+" Can't delete auto indents
+set backspace=indent,eol,start
+
 " Install flake8 and eslint
 " apt-get install python-flake8
 " npm install -g eslint
