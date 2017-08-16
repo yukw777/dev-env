@@ -96,6 +96,7 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_php_checkers = ['php', 'phpmd']
+let g:syntastic_go_checkers = ['go', 'golint', 'errcheck']
 
 " Allow jsx syntax in js files
 let g:jsx_ext_required = 0
