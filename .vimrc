@@ -59,6 +59,12 @@ Plugin 'tpope/vim-fugitive'
 " Go
 Plugin 'fatih/vim-go'
 
+" TypeScript Syntax Highlighting
+Plugin 'leafgarland/typescript-vim'
+
+" TypeScript IDE
+Plugin 'Quramy/tsuquyomi'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
