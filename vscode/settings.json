@@ -1,5 +1,4 @@
 {
-    "go.inferGopath": true,
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
