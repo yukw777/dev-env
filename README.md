@@ -21,4 +21,4 @@ For MacOS, I use [iTerm2](https://iterm2.com/).
 
 ## Shell - zsh
 ### Installation
-I use zsh with [ohmyzsh](https://ohmyz.sh/). Follow the instructions [here](https://github.com/ohmyzsh/ohmyzsh/wiki) to install both. I also use the [Powerlevel10k](https://github.com/romkatv/powerlevel10k) theme. Follow the instructions on its README to install. It comes with a nice installation wizard, so it should be quite simple.
+I use zsh with [ohmyzsh](https://ohmyz.sh/). Follow the instructions [here](https://github.com/ohmyzsh/ohmyzsh/wiki) to install both. I also use the [Powerlevel10k](https://github.com/romkatv/powerlevel10k) theme. Follow the instructions on its README to install. It comes with a nice installation wizard, so it should be quite simple. For Ubuntu, you do need to install the recommended fonts manually, and the instructions are [here](https://github.com/romkatv/powerlevel10k#manual-font-installation).
