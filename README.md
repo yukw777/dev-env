@@ -9,7 +9,12 @@ I use [Visual Studio Code](https://code.visualstudio.com/).
 - [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)
 
 ### Configurations
-Copy [keybindings.json](vscode/keybindings.json) and [settings.json](vscode/settings.json) to the appropriate locations.
+#### Key Bindings
+- MacOS: Copy [keybindings-macos.json](vscode/keybindings-macos.json) to to the appropriate location.
+- Ubuntu: Copy [keybindings-ubuntu.json](vscode/keybindings-ubuntu.json) to to the appropriate location.
+
+#### Settings
+Copy [settings.json](vscode/settings.json) to the appropriate locations.
 
 ## Terminal
 For MacOS, I use [iTerm2](https://iterm2.com/).
