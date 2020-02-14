@@ -3,6 +3,9 @@
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "workbench.editor.enablePreviewFromQuickOpen": false,
+    "files.watcherExclude": {
+        "**/venv/**": true
+    },
     "terminal.external.osxExec": "iTerm.app",
     "terminal.integrated.fontFamily": "MesloLGS NF"
 }
