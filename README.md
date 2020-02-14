@@ -1,5 +1,7 @@
 # Development Environment Setup
-## Editor - [Visual Studio Code](https://code.visualstudio.com/)
+## Editor
+I use [Visual Studio Code](https://code.visualstudio.com/).
+
 ### Extensions
 - [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
 - [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
