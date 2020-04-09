@@ -3,10 +3,10 @@
 I use [Visual Studio Code](https://code.visualstudio.com/).
 
 ### Extensions
-- [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
-- [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
-- [Go](https://marketplace.visualstudio.com/items?itemName=ms-vscode.Go)
-- [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)
+- [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim) - Vim Keybindings
+- [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) - Python Language Support
+- [Go](https://marketplace.visualstudio.com/items?itemName=ms-vscode.Go) - Go Language Support
+- [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop) - Latex Build and Preview
 
 ### Configurations
 #### Key Bindings
