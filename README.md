@@ -8,6 +8,7 @@ I use [Visual Studio Code](https://code.visualstudio.com/).
 - [Go](https://marketplace.visualstudio.com/items?itemName=ms-vscode.Go) - Go Language Support
 - [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop) - Latex Build and Preview
 - [erlang](https://marketplace.visualstudio.com/items?itemName=pgourlain.erlang) - Erlang Language Support
+- [Better TOML](https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml) - TOML Language Support
 
 ### Configurations
 #### Key Bindings
