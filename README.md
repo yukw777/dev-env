@@ -7,6 +7,7 @@ I use [Visual Studio Code](https://code.visualstudio.com/).
 - [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) - Python Language Support
 - [Go](https://marketplace.visualstudio.com/items?itemName=ms-vscode.Go) - Go Language Support
 - [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop) - Latex Build and Preview
+- [erlang](https://marketplace.visualstudio.com/items?itemName=pgourlain.erlang) - Erlang Language Support
 
 ### Configurations
 #### Key Bindings
