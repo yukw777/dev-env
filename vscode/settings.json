@@ -7,5 +7,6 @@
         "**/venv/**": true
     },
     "terminal.external.osxExec": "iTerm.app",
-    "terminal.integrated.fontFamily": "MesloLGS NF"
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "editor.formatOnSave": true
 }
