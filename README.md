@@ -11,6 +11,7 @@ I use [Visual Studio Code](https://code.visualstudio.com/).
 - [Better TOML](https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml) - TOML Language Support
 - [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=matklad.rust-analyzer) - Rust Language Support
 - [CodeLLDB](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb) - Debugger Based on LLDB for Compiled Languages like Rust and C++
+- [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.VSIntelliCode) - AI-assisted IntelliSense for Python, TypeScript/JavaScript and Java.
 
 ### Configurations
 #### Key Bindings
