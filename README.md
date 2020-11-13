@@ -12,6 +12,8 @@ I use [Visual Studio Code](https://code.visualstudio.com/).
 - [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=matklad.rust-analyzer) - Rust Language Support
 - [CodeLLDB](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb) - Debugger Based on LLDB for Compiled Languages like Rust and C++
 - [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.VSIntelliCode) - AI-assisted IntelliSense for Python, TypeScript/JavaScript and Java.
+- [Foam](https://foambubble.github.io/foam/) recommended extensions.
+- [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 
 ### Configurations
 #### Key Bindings
