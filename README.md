@@ -40,7 +40,7 @@ eval `keychain --eval --quiet --agents ssh id_rsa`
 ```
 
 ## CUDA
-Currently, PyTorch comes packaged with its own CUDA 10.2 by default for Ubuntu. As a result, you typically don't need to install a separate system-wide CUDA, but some libraries (e.g. pytorch-geometric) may require a system-wide CUDA installation. You can install CUDA 10.2 by following the commands below:
+PyTorch comes packaged with its own CUDA runtime, so you typically don't need to install a separate system-wide CUDA. However, some libraries (e.g. pytorch-geometric) may require a system-wide CUDA installation. You can install CUDA 11.5 by following the commands below:
 ```
 # Disable Nouveau driver
 sudo bash -c "echo blacklist nouveau > /etc/modprobe.d/blacklist-nvidia-nouveau.conf"
@@ -50,24 +50,21 @@ sudo reboot
 # check nouveau is not running
 lsmod | grep nou
 
-# If Ubuntu 20.04, we need to switch the default GCC version to 7.
-# It's already 7 on 18.04.
-sudo apt -y install gcc-7 g++-7
-sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-7 7
-sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-7 7
-
 # You may need to remove the Nvidia drivers installed by the package manager
 sudo apt remove --purge '^nvidia-.*'
 sudo apt autoremove
 sudo reboot
 
-# Install CUDA 10.2
-wget https://developer.download.nvidia.com/compute/cuda/10.2/Prod/local_installers/cuda_10.2.89_440.33.01_linux.run
-sudo sh cuda_10.2.89_440.33.01_linux.run
-sudo reboot
+# Install CUDA 11.5
+# From https://developer.nvidia.com/cuda-downloads
+wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin
+sudo mv cuda-ubuntu2004.pin /etc/apt/preferences.d/cuda-repository-pin-600
+sudo apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/7fa2af80.pub
+sudo add-apt-repository "deb https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/ /"
+sudo apt-get update
+sudo apt-get -y install cuda
 
-# Remove old installations by running one of the commands below (whatever is available)
+# Remove old installations (if at all) by running one of the commands below (whatever is available)
 sudo /usr/local/cuda-x.x/bin/uninstall_cuda_x.x.pl
 sudo /usr/local/cuda-x.x/bin/cuda-uninstaller
 ```
-Then, add paths to `PATH` and `LD_LIBRARY_PATH` in `~/.zshrc` following the prompt.
