@@ -68,3 +68,10 @@ sudo apt-get -y install cuda
 sudo /usr/local/cuda-x.x/bin/uninstall_cuda_x.x.pl
 sudo /usr/local/cuda-x.x/bin/cuda-uninstaller
 ```
+
+You may have to add the following to your `~/.zshrc`:
+```bash
+# Add CUDA paths
+export PATH=$PATH:/usr/local/cuda/bin
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/lib64
+```
