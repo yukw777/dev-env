@@ -15,7 +15,6 @@
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "python.jediEnabled": false,
     "rust-analyzer.checkOnSave.command": "clippy",
-    "python.languageServer": "Microsoft",
     "python.formatting.blackArgs": [
         "--force-exclude",
         "/.pyenv/",
