@@ -10,11 +10,9 @@
     "terminal.integrated.fontFamily": "MesloLGS NF",
     "editor.formatOnSave": true,
     "python.formatting.provider": "black",
-    "rust-analyzer.checkOnSave.command": "clippy",
     "python.formatting.blackArgs": [
-        "--force-exclude",
-        "/.pyenv/",
-        "--force-exclude",
-        "/venv/"
-    ]
+      "--force-exclude",
+      "/(\\.direnv|\\.eggs|\\.git|\\.hg|\\.mypy_cache|\\.nox|\\.tox|\\.venv|venv|\\.svn|_build|buck-out|build|dist)/"
+    ],
+    "rust-analyzer.checkOnSave.command": "clippy",
 }
