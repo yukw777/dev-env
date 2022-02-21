@@ -6,7 +6,6 @@ I use [Visual Studio Code](https://code.visualstudio.com/).
 - [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim) - Vim Keybindings
 - [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) - Python Language Support
 - [Go](https://marketplace.visualstudio.com/items?itemName=ms-vscode.Go) - Go Language Support
-- [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop) - Latex Build and Preview
 - [erlang](https://marketplace.visualstudio.com/items?itemName=pgourlain.erlang) - Erlang Language Support
 - [Better TOML](https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml) - TOML Language Support
 - [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=matklad.rust-analyzer) - Rust Language Support
