@@ -13,6 +13,7 @@ I use [Visual Studio Code](https://code.visualstudio.com/).
 - [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode) - AI-assisted IntelliSense for Python, TypeScript/JavaScript and Java.
 - [Foam](https://foambubble.github.io/foam/) recommended extensions.
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+- [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
 ### Configurations
 #### Key Bindings
