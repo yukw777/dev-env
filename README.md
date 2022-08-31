@@ -14,6 +14,7 @@ I use [Visual Studio Code](https://code.visualstudio.com/).
 - [Foam](https://foambubble.github.io/foam/) recommended extensions.
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - Javascript/Typescript formatter
 
 ### Configurations
 #### Key Bindings

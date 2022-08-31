@@ -17,4 +17,10 @@
     "python.linting.flake8Enabled": true,
     "python.linting.mypyEnabled": true,
     "rust-analyzer.checkOnSave.command": "clippy",
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
