@@ -11,24 +11,28 @@
     "editor.formatOnSave": true,
     "python.formatting.provider": "black",
     "python.formatting.blackArgs": [
-      "--force-exclude",
-      "/(\\.direnv|\\.eggs|\\.git|\\.hg|\\.mypy_cache|\\.nox|\\.tox|\\.venv|venv|\\.svn|_build|buck-out|build|dist)/"
+        "--force-exclude",
+        "/(\\.direnv|\\.eggs|\\.git|\\.hg|\\.mypy_cache|\\.nox|\\.tox|\\.venv|venv|\\.svn|_build|buck-out|build|dist)/"
     ],
     "python.linting.flake8Enabled": true,
     "python.linting.mypyEnabled": true,
     "rust-analyzer.checkOnSave.command": "clippy",
     "[javascript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
-      "editor.tabSize": 2
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 2
     },
     "[typescript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
-      "editor.tabSize": 2
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 2
     },
     "[html]": {
-      "editor.defaultFormatter": "vscode.html-language-features"
+        "editor.defaultFormatter": "vscode.html-language-features"
     },
     "cSpell.enabledLanguageIds": [
-      "markdown", "text", "latex", "jupyter"
-    ]
+        "markdown",
+        "text",
+        "latex",
+        "jupyter"
+    ],
+    "mypy.runUsingActiveInterpreter": true
 }
