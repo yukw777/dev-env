@@ -15,7 +15,6 @@
         "/(\\.direnv|\\.eggs|\\.git|\\.hg|\\.mypy_cache|\\.nox|\\.tox|\\.venv|venv|\\.svn|_build|buck-out|build|dist)/"
     ],
     "python.linting.flake8Enabled": true,
-    "python.linting.mypyEnabled": true,
     "rust-analyzer.checkOnSave.command": "clippy",
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
