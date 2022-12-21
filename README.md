@@ -19,6 +19,7 @@ I use [Visual Studio Code](https://code.visualstudio.com/).
 - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - Javascript/Typescript formatter
 - [Mypy](https://marketplace.visualstudio.com/items?itemName=matangover.mypy) - Mypy extension, better than the built-in
+- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) - Launch a development local server. Useful for previewing HTML files over SSH
 
 ### Configurations
 
