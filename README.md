@@ -58,27 +58,20 @@ eval `keychain --eval --quiet --agents ssh id_rsa`
 PyTorch comes packaged with its own CUDA runtime, so you typically don't need to install a separate system-wide CUDA. However, some libraries (e.g. pytorch-geometric) may require a system-wide CUDA installation. You can install CUDA 11.5 by following the commands below:
 
 ```
-# Disable Nouveau driver
+# Check if nouveau is running
+lsmod | grep nou
+# If running, disable Nouveau driver
 sudo bash -c "echo blacklist nouveau > /etc/modprobe.d/blacklist-nvidia-nouveau.conf"
 sudo bash -c "echo options nouveau modeset=0 >> /etc/modprobe.d/blacklist-nvidia-nouveau.conf"
 sudo update-initramfs -u
 sudo reboot
-# check nouveau is not running
-lsmod | grep nou
 
 # You may need to remove the Nvidia drivers installed by the package manager
 sudo apt remove --purge '^nvidia-.*'
 sudo apt autoremove
 sudo reboot
 
-# Install CUDA 11.5
-# From https://developer.nvidia.com/cuda-downloads
-wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin
-sudo mv cuda-ubuntu2004.pin /etc/apt/preferences.d/cuda-repository-pin-600
-sudo apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/7fa2af80.pub
-sudo add-apt-repository "deb https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/ /"
-sudo apt-get update
-sudo apt-get -y install cuda
+# Install latest CUDA by following the instructions on https://developer.nvidia.com/cuda-downloads
 
 # Remove old installations (if at all) by running one of the commands below (whatever is available)
 sudo /usr/local/cuda-x.x/bin/uninstall_cuda_x.x.pl
