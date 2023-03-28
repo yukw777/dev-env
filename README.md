@@ -28,6 +28,8 @@ I use [Visual Studio Code](https://code.visualstudio.com/).
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - Javascript/Typescript formatter
 - [Mypy](https://marketplace.visualstudio.com/items?itemName=matangover.mypy) - Mypy extension, better than the built-in
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) - Launch a development local server. Useful for previewing HTML files over SSH
+- [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp) - C# Language Support
+- [CSharpier](https://marketplace.visualstudio.com/items?itemName=csharpier.csharpier-vscode) - Auto-format C# code using CSharpier
 
 ### Configurations
 
@@ -92,4 +94,22 @@ You may have to add the following to your `~/.zshrc`:
 # Add CUDA paths
 export PATH=$PATH:/usr/local/cuda/bin
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/lib64
+```
+
+## Poetry
+
+By default, `poetry` is installed in `$HOME/.local/bin`, so it's a good idea to add the following to your `~/.zshrc`:
+
+```bash
+# Add ~/.local/bin (mostly for Poetry)
+export PATH=$PATH:$HOME/.local/bin
+```
+
+## .NET
+
+The path for .NET global tools is not automatically added, so you may have to add the following to your `~/.zshrc`:
+
+```bash
+# Add ~/.dotnet/tools for dotnet tools
+export PATH=$PATH:$HOME/.dotnet/tools
 ```
