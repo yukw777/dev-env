@@ -30,6 +30,7 @@ I use [Visual Studio Code](https://code.visualstudio.com/).
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) - Launch a development local server. Useful for previewing HTML files over SSH
 - [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp) - C# Language Support
 - [CSharpier](https://marketplace.visualstudio.com/items?itemName=csharpier.csharpier-vscode) - Auto-format C# code using CSharpier
+- [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv) - CSV syntax highlighting
 
 ### Configurations
 
