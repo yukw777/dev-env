@@ -10,9 +10,9 @@ I remap Caps Lock to Left Ctrl.
 
 ## Editor
 
-I use [Visual Studio Code](https://code.visualstudio.com/).
+### [Visual Studio Code](https://code.visualstudio.com/)
 
-### Extensions
+#### Extensions
 
 - [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim) - Vim Keybindings
 - [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) - Python Language Support
@@ -32,8 +32,6 @@ I use [Visual Studio Code](https://code.visualstudio.com/).
 - [CSharpier](https://marketplace.visualstudio.com/items?itemName=csharpier.csharpier-vscode) - Auto-format C# code using CSharpier
 - [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv) - CSV syntax highlighting
 
-### Configurations
-
 #### Key Bindings
 
 - MacOS: Copy [keybindings-macos.json](vscode/keybindings-macos.json) to to the appropriate location.
@@ -42,6 +40,13 @@ I use [Visual Studio Code](https://code.visualstudio.com/).
 #### Settings
 
 Copy [settings.json](vscode/settings.json) to the appropriate locations.
+
+### [Visual Studio](https://visualstudio.microsoft.com/)
+
+#### Extensions
+
+- [VsVim](https://marketplace.visualstudio.com/items?itemName=JaredParMSFT.VsVim) - Vim Keybindings
+- [CSharpier](https://marketplace.visualstudio.com/items?itemName=csharpier.CSharpier) - Auto-format C# code using CSharpier
 
 ## Terminal
 
