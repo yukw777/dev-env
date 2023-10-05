@@ -48,6 +48,13 @@ Copy [settings.json](vscode/settings.json) to the appropriate locations.
 - [VsVim](https://marketplace.visualstudio.com/items?itemName=JaredParMSFT.VsVim) - Vim Keybindings
 - [CSharpier](https://marketplace.visualstudio.com/items?itemName=csharpier.CSharpier) - Auto-format C# code using CSharpier
 
+#### Key Bindings
+
+First, have `VsVim` manage all the conflicts. Second, search for `key bindings` to bring up the keyboard settings (Environment > Keyboard), then modify the following:
+
+- `Edit.LineUp` => Ctrl+K: Move up in the suggestions.
+- `Edit.LineDown` => Ctrl+J: Move down in the suggestions.
+
 ## Terminal
 
 For MacOS, I use [iTerm2](https://iterm2.com/).
