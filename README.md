@@ -55,6 +55,8 @@ First, have `VsVim` manage all the conflicts. Second, search for `key bindings` 
 - `Edit.LineUp` => Ctrl+K: Move up in the suggestions.
 - `Edit.LineDown` => Ctrl+J: Move down in the suggestions.
 
+Lastly, copy `.vsvimrc` to `C:\Users\<username>`.
+
 ## Terminal
 
 For MacOS, I use [iTerm2](https://iterm2.com/).

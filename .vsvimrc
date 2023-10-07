@@ -1,0 +1,2 @@
+nnoremap gh :vsc Edit.QuickInfo<CR>
+vnoremap gc :vsc Edit.ToggleBlockComment<CR>
