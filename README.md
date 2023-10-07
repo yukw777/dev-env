@@ -61,8 +61,8 @@ First, have `VsVim` manage the following key bindings:
 
 Second, search for `key bindings` to bring up the keyboard settings (Environment > Keyboard), then modify the following:
 
-- `Edit.LineUp` => Ctrl+K: Move up in the suggestions.
-- `Edit.LineDown` => Ctrl+J: Move down in the suggestions.
+- `Edit.LineUp` => Ctrl+K (Text Editor): Move up in the suggestions.
+- `Edit.LineDown` => Ctrl+J (Text Editor): Move down in the suggestions.
 
 Lastly, copy `.vsvimrc` to `C:\Users\<username>`.
 
