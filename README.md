@@ -50,7 +50,16 @@ Copy [settings.json](vscode/settings.json) to the appropriate locations.
 
 #### Key Bindings
 
-First, have `VsVim` manage all the conflicts. Second, search for `key bindings` to bring up the keyboard settings (Environment > Keyboard), then modify the following:
+First, have `VsVim` manage the following key bindings:
+
+- Ctrl+[
+- Ctrl+B
+- Ctrl+F
+- Ctrl+R
+- Ctrl+V
+- Ctrl+W
+
+Second, search for `key bindings` to bring up the keyboard settings (Environment > Keyboard), then modify the following:
 
 - `Edit.LineUp` => Ctrl+K: Move up in the suggestions.
 - `Edit.LineDown` => Ctrl+J: Move down in the suggestions.
