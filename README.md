@@ -31,6 +31,8 @@ I remap Caps Lock to Left Ctrl.
 - [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp) - C# Language Support
 - [CSharpier](https://marketplace.visualstudio.com/items?itemName=csharpier.csharpier-vscode) - Auto-format C# code using CSharpier
 - [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv) - CSV syntax highlighting
+- [Flake8](https://marketplace.visualstudio.com/items?itemName=ms-python.flake8) - Flake8
+- [Black](https://marketplace.visualstudio.com/items?itemName=ms-python.black-formatter) - Black
 
 #### Key Bindings
 

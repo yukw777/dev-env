@@ -9,12 +9,6 @@
     "terminal.external.osxExec": "iTerm.app",
     "terminal.integrated.fontFamily": "MesloLGS NF",
     "editor.formatOnSave": true,
-    "python.formatting.provider": "black",
-    "python.formatting.blackArgs": [
-        "--force-exclude",
-        "/(\\.direnv|\\.eggs|\\.git|\\.hg|\\.mypy_cache|\\.nox|\\.tox|\\.venv|venv|\\.svn|_build|buck-out|build|dist)/"
-    ],
-    "python.linting.flake8Enabled": true,
     "rust-analyzer.checkOnSave.command": "clippy",
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -36,5 +30,13 @@
     "mypy.runUsingActiveInterpreter": true,
     "[csharp]": {
         "editor.defaultFormatter": "csharpier.csharpier-vscode"
-    }
+    },
+    "[python]": {
+        "editor.formatOnType": true,
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "black-formatter.args": [
+        "--force-exclude",
+        "/(\\\\.direnv|\\\\.eggs|\\\\.git|\\\\.hg|\\\\.mypy_cache|\\\\.nox|\\\\.tox|\\\\.venv|venv|\\\\.svn|_build|buck-out|build|dist)/"
+    ]
 }
