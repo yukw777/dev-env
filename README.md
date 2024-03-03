@@ -72,7 +72,15 @@ Lastly, copy `.vsvimrc` to `C:\Users\<username>`.
 
 ## Terminal
 
-For MacOS, I use [iTerm2](https://iterm2.com/).
+For MacOS, I use [iTerm2](https://iterm2.com/), and I modify the key mappings to allow skipping words backward and forward:
+
+(Based on the instructions from [this page](https://coderwall.com/p/h6yfda/use-and-to-jump-forwards-backwards-words-in-iterm-2-on-os-x))
+
+1. Go to Settings -> Profiles -> Keys.
+2. Set `Left Option Key` to `Esc+`.
+3. Go to Key Mappings.
+4. Find or create a key mapping for `⌥←`, set Action to be `Send Escape Sequence` and set Esc+ to be `b`.
+5. Find or create a key mapping for `⌥→`, set Action to be `Send Escape Sequence` and set Esc+ to be `f`.
 
 ## Shell - zsh
 
