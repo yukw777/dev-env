@@ -18,7 +18,7 @@ I remap Caps Lock to Left Ctrl.
 - [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) - Python Language Support
 - [Go](https://marketplace.visualstudio.com/items?itemName=ms-vscode.Go) - Go Language Support
 - [erlang](https://marketplace.visualstudio.com/items?itemName=pgourlain.erlang) - Erlang Language Support
-- [Better TOML](https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml) - TOML Language Support
+- [Even Better TOML](https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml) - TOML Language Support
 - [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=matklad.rust-analyzer) - Rust Language Support
 - [CodeLLDB](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb) - Debugger Based on LLDB for Compiled Languages like Rust and C++
 - [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode) - AI-assisted IntelliSense for Python, TypeScript/JavaScript and Java.
