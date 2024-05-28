@@ -6,7 +6,7 @@ I remap Caps Lock to Left Ctrl.
 
 - Windows: Use [Microsoft PowerToys](https://apps.microsoft.com/store/detail/microsoft-powertoys/XP89DCGQ3K6VLD)'s Keyboard Manager.
 - Mac: System Preferences => Keyboard => Modifier Keys.
-- Ubuntu: `sudo apt install gnome-tweak-tool` => `gnome-tweaks` => Keyboard & mouse => Additional Layout Options => Ctrl position => Swap Ctrl and Caps Lock.
+- Ubuntu: `sudo apt install gnome-tweaks` => `gnome-tweaks` => Keyboard & mouse => Additional Layout Options => Ctrl position => Swap Ctrl and Caps Lock.
 
 ## Editor
 
