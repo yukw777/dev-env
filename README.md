@@ -33,6 +33,7 @@ I remap Caps Lock to Left Ctrl.
 - [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv) - CSV syntax highlighting
 - [Flake8](https://marketplace.visualstudio.com/items?itemName=ms-python.flake8) - Flake8
 - [Black](https://marketplace.visualstudio.com/items?itemName=ms-python.black-formatter) - Black
+- [Ruff](https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff) - Ruff
 - [vscode-pdf](https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf) - PDF preview
 - [C/C++ Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools-extension-pack) - C/C++ related extensions
 
