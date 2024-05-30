@@ -27,7 +27,6 @@
         "latex",
         "jupyter"
     ],
-    "mypy.runUsingActiveInterpreter": true,
     "[csharp]": {
         "editor.defaultFormatter": "csharpier.csharpier-vscode"
     },
