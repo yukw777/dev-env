@@ -31,7 +31,6 @@
         "editor.defaultFormatter": "csharpier.csharpier-vscode"
     },
     "[python]": {
-        "editor.formatOnType": true,
         "editor.defaultFormatter": "ms-python.black-formatter"
     },
     "black-formatter.args": [
