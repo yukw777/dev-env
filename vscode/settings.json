@@ -38,5 +38,6 @@
     "black-formatter.args": [
         "--force-exclude",
         "/(\\\\.direnv|\\\\.eggs|\\\\.git|\\\\.hg|\\\\.mypy_cache|\\\\.nox|\\\\.tox|\\\\.venv|venv|\\\\.svn|_build|buck-out|build|dist)/"
-    ]
+    ],
+    "mypy-type-checker.preferDaemon": true
 }

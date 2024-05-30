@@ -26,7 +26,7 @@ I remap Caps Lock to Left Ctrl.
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - Javascript/Typescript formatter
-- [Mypy](https://marketplace.visualstudio.com/items?itemName=matangover.mypy) - Mypy extension, better than the built-in
+- [Mypy Type Checker](https://marketplace.visualstudio.com/items?itemName=ms-python.mypy-type-checker) - Mypy
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) - Launch a development local server. Useful for previewing HTML files over SSH
 - [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp) - C# Language Support
 - [CSharpier](https://marketplace.visualstudio.com/items?itemName=csharpier.csharpier-vscode) - Auto-format C# code using CSharpier
